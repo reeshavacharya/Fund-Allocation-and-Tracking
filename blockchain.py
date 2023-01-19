@@ -134,10 +134,10 @@ blockchain = Blockchain()
 
 # database connection details below
 mydb = mysql.connector.connect(
-    host="sql6.freesqldatabase.com",
-    user="sql6454439",
-    passwd="kyZ7Sztrzs",
-    database="sql6454439"
+    host="127.0.0.1",
+    user="root",
+    passwd="",
+    database="blockchain"
 )
 
 # host address and port
